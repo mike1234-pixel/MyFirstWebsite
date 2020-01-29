@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "en-GB">
+    <head>
+        <link rel = "stylesheet"
+              type = "text/css"
+              href = "style.css" />
+        <title>Survey Form</title>
+                
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+
+<body>
+<header>
+    <!--  <a href="file:///C:/Users/User/Documents/myFirstWebsite/Hompage.html"><img id="new-view-logo" src="file:///C:/Users/User/Documents/myFirstWebsite/myFirstWebsite-Images/new-view-logo.png"/></a> -->
+    <a href="file:///C:/Users/User/Documents/myFirstWebsite/Hompage.html"><p id="mikes-design-world">Mike's Design World</p></a>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/User/Documents/myFirstWebsite/About-me.html" class="navbarlinks">About Me</a></li>
+            <li><a href="file:///C:/Users/User/Documents/myFirstWebsite/My-projects.html" class="navbarlinks">My Projects</a></li>
+            <li><a href="file:///C:/Users/User/Documents/myFirstWebsite/Blog.html" class="navbarlinks">Blog</a></li>
+            <li><a href="file:///C:/Users/User/Documents/myFirstWebsite/Take-my-survey.html" class="navbarlinks">Take My Survey</a></li>
+            <li><a href="file:///C:/Users/User/Documents/myFirstWebsite/Contact-me.html" class="navbarlinks">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="maincontent"></div>
+    <h1 id="h1-1">Take My Survey</h1>
+<div id="flexcontainer1-takemysurvey">
+
+<form>
+    <div class="formelement">
+    <label for="firstname" class="title">First Name:</label>
+        <input type="text" name="firstname" maxlength="30" required="required" id="firstname"></input>
+    </div>
+    
+    <div class="formelement">
+    <label for="lastname" class="title">Last Name:</label>
+        <input type="text" name="lastname" maxlength="30" required="required" id="lastname"></input>
+    </div>
+    <div class="formelement">
+    <label for="email" class="title">Email Adress:</label>
+        <input type="email" name="email" maxlength="30" required="required" id="email"></input>
+    </div>
+    
+
+    <label for="checkbox" class="title" id="whatlanguages">What languages do your projects require?</label><br>
+    <ul id="checkboxblock">
+        <li><input type="checkbox" name="language" id="checkbox" value="htmlCss"/>HTML, CSS, BootStrap</li>
+        <li><input type="checkbox" name="language" id="checkbox" value="JavaScript"/>JavaScript, JQuery</li>
+        <li><input type="checkbox" name="language" id="checkbox" value="PHPSQL"/>PHP & SQL</li>
+        <li><input type="checkbox" name="language" id="checkbox" value="JavaC#"/>Java & C#</li>
+        <li><input type="checkbox" name="language" id="checkbox" value="Python"/>Python</li>
+        <li><input type="checkbox" name="language" id="checkbox" value="Ruby"/>Ruby</li>
+        <li><input type="checkbox" name="language" id="checkbox" value="Go"/>Go</li>
+        <li><input type="checkbox" name="language" id="checkbox" value="Other"/>Other</li>
+    </ul>
+   
+
+    <div class="formelement">
+    <label for="dropdownsurvey" class="title">
+        Where did you hear about me?
+    </label>
+    <select name="wheredidyouhear" id="dropdownsurvey">
+        <option value="google">Google</option>
+        <option value="facebook">Facebook</option>
+        <option value="youtube">YouTube</option>
+        <option value="wordofmouth">Word of Mouth</option>
+    </select>
+    </div>
+
+    <br>
+
+    <div class="formelement">
+    <label class="title" for="textareasurvey">What do you look for in a web designer / developer?</label>
+        <textarea name="comments" row="4" id="textareasurvey" placeholder="Enter your comment here..."></textarea>
+    </div>
+
+    <br>
+
+    <div class="formelement" id="submitsurvey">
+    <p>
+        <input type="submit" value="submit">
+    </p>
+    </div>
+</form>
+
+</div>
+
+<div id="contact-us-box-homepage">
+        <a href=mailto:mike.tandy.1@gmail.com subject="Message to Mike" class="contact-links-homepage">Email</a>
+        <a href="tel:123-456-7890" class="contact-links-homepage">Phone</a>
+        <a href="file:///C:/Users/User/Documents/myFirstWebsite/Contact-me.html" class="contact-links-homepage">Find Me</a>
+    </div>
+</body>
+</html>
